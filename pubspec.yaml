@@ -6,18 +6,17 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.7.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_auth:
-  firebase_core:
-  google_sign_in:
-  shared_preferences:
-  random_string:
-  cloud_firestore:
-
+  firebase_auth: any
+  firebase_core: any
+  google_sign_in: any
+  shared_preferences: any
+  random_string: any
+  cloud_firestore: any
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
